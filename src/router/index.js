@@ -67,6 +67,11 @@ const routes = [
             component: () => import('@/views/base/Carousels.vue'),
           },
           {
+            path: '/base/chips',
+            name: 'Chips',
+            component: () => import('@/views/base/Chips.vue'),
+          },
+          {
             path: '/base/collapses',
             name: 'Collapses',
             component: () => import('@/views/base/Collapses.vue'),
@@ -174,6 +179,11 @@ const routes = [
             path: '/forms/checks-radios',
             name: 'Checks & Radios',
             component: () => import('@/views/forms/ChecksRadios.vue'),
+          },
+          {
+            path: '/forms/chip-input',
+            name: 'Chip Input',
+            component: () => import('@/views/forms/ChipInput.vue'),
           },
           {
             path: '/forms/range',

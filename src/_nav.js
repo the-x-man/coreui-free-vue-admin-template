@@ -67,6 +67,11 @@ export default [
       },
       {
         component: 'CNavItem',
+        name: 'Chips',
+        to: '/base/chips',
+      },
+      {
+        component: 'CNavItem',
         name: 'Collapses',
         to: '/base/collapses',
       },
@@ -204,6 +209,11 @@ export default [
         component: 'CNavItem',
         name: 'Checks & Radios',
         to: '/forms/checks-radios',
+      },
+      {
+        component: 'CNavItem',
+        name: 'Chip Input',
+        to: '/forms/chip-input',
       },
       {
         component: 'CNavItem',
