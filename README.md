@@ -1,4 +1,4 @@
-# CoreUI Free Vue Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%Vue%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
+# CoreUI Free Vue Admin Template - Built for AI-Assisted Development [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?text=CoreUI%20-%20Free%Vue%204%20Admin%20Template%20&url=https://coreui.io&hashtags=bootstrap,admin,template,dashboard,panel,free,angular,react,vue)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![@coreui coreui](https://img.shields.io/badge/@coreui%20-coreui-lightgrey.svg?style=flat-square)](https://github.com/coreui/coreui)
@@ -29,6 +29,7 @@ CoreUI is meant to be the UX game changer. Pure & transparent code is devoid of 
 * [Installation](#installation)
 * [Basic usage](#basic-usage)
 * [What's included](#whats-included)
+* [AI-Friendly Development](#ai-friendly-development)
 * [Documentation](#documentation)
 * [Components](#components)
 * [Versioning](#versioning)
@@ -134,6 +135,43 @@ coreui-free-vue-admin-template
 ├── package.json
 └── vite.config.mjs
 ```
+
+## AI-Friendly Development
+
+This template is designed to work seamlessly with AI coding assistants like Cursor, GitHub Copilot, and Claude Code. We've included comprehensive documentation and configuration files to help AI understand the project structure and conventions.
+
+### Features for AI Development
+
+- **`.cursorrules`**: Complete AI assistant configuration with project conventions, technology stack, and coding patterns
+- **`ARCHITECTURE.md`**: Detailed technical architecture documentation covering components, routing, state management, and build system
+- **`DEVELOPMENT.md`**: Comprehensive development guide with setup instructions, workflows, and best practices
+- **JSDoc Comments**: Main Vue components include documentation for better AI understanding
+
+### Getting Started with AI Assistants
+
+1. **Open the project** in your AI-powered IDE (VS Code with Cursor, GitHub Copilot, or Claude Code)
+2. **Review `.cursorrules`** to understand the project conventions
+3. **Ask your AI assistant** to help you build features - it will automatically follow the project patterns
+4. **Use natural language** to describe components, pages, or features you want to add
+
+### What AI Assistants Know About This Project
+
+Your AI assistant understands:
+- **Component Library**: Always use CoreUI Vue components (never Tailwind, Vuetify, or other libraries)
+- **Code Style**: Vue 3 Composition API with `<script setup>` syntax, Prettier formatting, ESLint rules
+- **Architecture**: Single Page Application with Vue Router, Pinia for state management, Vite for building
+- **File Organization**: Where to create components, views, routes, and styles
+- **Common Patterns**: Lazy loading, composables, navigation configuration, theming
+
+### Example AI Prompts
+
+Try asking your AI assistant:
+- "Create a new products page with a table showing product name, price, and status"
+- "Add a user profile form with validation"
+- "Create a chart showing monthly sales data"
+- "Add a new navigation item for the settings page"
+
+For more information, see the [DEVELOPMENT.md](DEVELOPMENT.md) guide.
 
 ## Documentation
 
